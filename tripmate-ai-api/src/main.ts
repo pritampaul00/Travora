@@ -7,10 +7,13 @@ async function bootstrap() {
 
   app.setGlobalPrefix('api');
 
-  app.enableCors({
-    origin: 'http://localhost:3001',
-    credentials: true,
-  });
+app.enableCors({
+  origin: [
+    'http://localhost:3001',
+    'https://tripmate-ai-seven.vercel.app',
+  ],
+  credentials: true,
+});
 
   app.useGlobalPipes(
     new ValidationPipe({
