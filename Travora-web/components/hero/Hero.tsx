@@ -43,9 +43,7 @@ export default function Hero() {
             </span>
 
             <h1>
-              TripMate
-              <br />
-              AI
+              Travora
             </h1>
 
             <p className="lede">
@@ -67,7 +65,7 @@ export default function Hero() {
 
       <footer>
         <span>
-          TripMate AI · Multi Agent Travel Planner
+          Travora · Multi Agent Travel Planner
         </span>
 
         <span className="stack">

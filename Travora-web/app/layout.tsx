@@ -24,7 +24,7 @@ const monoFont = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TripMate AI",
+  title: "Travora",
   description:
     "Plan complete trips with AI. Discover flights, hotels, personalized itineraries and budget breakdowns in seconds.",
 };
