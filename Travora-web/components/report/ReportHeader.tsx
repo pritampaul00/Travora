@@ -1,3 +1,4 @@
+import HeaderBar from "../ui/HeaderBar";
 interface ReportHeaderProps {
   onCopy: () => void;
   onDownload: () => void;
